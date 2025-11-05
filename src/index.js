@@ -42,7 +42,7 @@ const PORT = process.env.PORT || 5000;
 
 connectToDatabase()
   .then(() => {
-    app.listen(PORT, () => console.log(`Server listening on http://localhost:${PORT}`));
+    app.listen(PORT, () => console.log(`Server listening on https://remarkable-daifuku-cebf99.netlify.app/`));
   })
   .catch((e) => {
     console.error('Failed to connect to database', e);
